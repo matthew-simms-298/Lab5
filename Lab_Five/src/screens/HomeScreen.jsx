@@ -10,6 +10,7 @@ function HomeScreen({ navigation }) {
 
     return (
         <MainLayout>
+            <Text>Welcome to the home screen!</Text>
             <Button
             title="Go to About"
             onPress={() => navigation.navigate('About')}

@@ -10,6 +10,8 @@ function AboutScreen({ navigation }) {
 
     return (
         <MainLayout>
+            <Text>Hi, my name is Matthew Simms.</Text>
+            <Text>I like cars, programming and camping</Text>
              <Button
             title="Go to Home"
             onPress={() => navigation.navigate('Home')}
